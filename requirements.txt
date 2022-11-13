@@ -1,2 +1,9 @@
-mitmproxy==0.18.2
+mitmproxy==8.0.0
 pymysql
+flask>=0.12.3 # not directly required, pinned by Snyk to avoid a vulnerability
+jsbeautifier>=1.14.1 # not directly required, pinned by Snyk to avoid a vulnerability
+lxml>=4.9.1 # not directly required, pinned by Snyk to avoid a vulnerability
+passlib>=1.7.3 # not directly required, pinned by Snyk to avoid a vulnerability
+pyopenssl>=17.5.0 # not directly required, pinned by Snyk to avoid a vulnerability
+requests>=2.20 # not directly required, pinned by Snyk to avoid a vulnerability
+tornado>=5.1 # not directly required, pinned by Snyk to avoid a vulnerability
