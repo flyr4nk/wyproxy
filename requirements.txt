@@ -1,2 +1,4 @@
 mitmproxy==0.18.2
 pymysql
+cryptography>=41.0.5 # not directly required, pinned by Snyk to avoid a vulnerability
+werkzeug>=3.0.1 # not directly required, pinned by Snyk to avoid a vulnerability
